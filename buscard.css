@@ -1,0 +1,50 @@
+/*
+    only a few css properties can be inherited. most of them work on text. inheritance is important in coding to ensure a tidy code. it also ensures that programmers do not repeat themselves.
+
+    margin: top right bottom left
+*/
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title{
+    margin-top: 10%;
+}
+
+.card_layout{
+    background-color: rgb(183, 250, 228);
+    display: block;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.card_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.image{
+    width: 150px;
+    margin: 20px 0px;
+}
+
+.text_layout{
+    display: block;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.text{
+    font-weight: bold;
+    color: rgb(65, 59, 59);
+}
+
+.border-bottom{
+    border-bottom: 10px solid rgb(65, 59, 59);
+}
+
+.border-dot{
+    border: 1px dotted rgb(65, 59, 59);
+}
